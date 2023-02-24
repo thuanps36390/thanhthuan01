@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul li{
+    display:inline-block;
+   }
+   .menu ul li a{
+    display:block;
+   }
+   .menu ul{ 
+    padding: 0px;
+    margin : 0px;
+    list-style:none ;
+    border-radius: 5px;
+    background-color:rgb(237, 221, 216);
+    text-align: center ;
+   }
+   .menu ul li a {
+   text-decoration:none;
+   font-variant:small-caps;
+   font-size:larger;
+   color: rgb(9, 8, 8);
+   padding: 0 10px;
+   line-height: 30px;
+   }
+   .menu ul li a:hover{
+    color:rgb(208, 146, 40);
+   }
+   .menu ul li{
+       position:relative;
+   }
+   .menu ul ul{
+       position:absolute;
+        display:none;
+   }
+   .menu ul ul a{
+       display: block;
+   }
+   .menu ul li:hover ul {
+       display: block;
+   }
+   .menu ul ul{
+    padding: 5px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    width:200px;
+    background-color:rgb(247, 243, 243);
+    box-shadow:0 0 1px rgb(110, 108, 108);
+   }
+    .menu ul ul a{
+    line-height:30px;
+   color:rgb(17, 14, 13);
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    padding:0 20px;
+    }
+    .menu ul ul a:hover{
+    background-color:orangered; 
+    color:white;
+    }
+    .padd20{
+        padding: 20px;
+    }
+    .contenfull img {
+        width: 100%;
+    }
+    .conten .box3{
+        float: left;
+        width: 33.33%;
+        text-align: center;
+    }
+    .box3{
+        color: #666666;
+    }
+    .conten1 {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .contenfull
+    .row {
+        float: left;
+        width: 100%;
+    }
+    .contenfull img {
+        width: 100%;
+    }
+    .padd50{
+        padding: 50px 0px;
+    }
+    section {
+        margin: 30px 0px;
+    }
+    .mr2pt{
+        margin-right: 2%;
+    }
+    .boxnews{ 
+     float: left;
+     width: 23%;
+    }
+    .boxnews img{
+        border-radius: 10px;
+    }
+    .bg2{
+        background-color:  #262626;
+    }
+    p {
+        text-align: justify;
+        line-height: 150%;
+        color: #555555;
+    
+    }
+    button {
+        background-color: #c8070f; 
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: bold;
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+    }
+    .row {
+        float: left;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .boxcenter{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .boxfooter1{
+        width: 35%;
+        float: left;
+    }
+    .boxfooter1{
+        width: 65%;
+        float: left;
+    }
+    .textcenter{
+        text-align: center;
+    } 
+    a{
+        text-decoration: none;
+    }
